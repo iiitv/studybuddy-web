@@ -23,4 +23,4 @@ $ yarn start
 
 ### Authors :pencil:
 
-©️ [Web Team StudyBuddy] :tada:
+©️ Web Team StudyBuddy :tada:
