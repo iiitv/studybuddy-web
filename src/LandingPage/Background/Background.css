@@ -18,7 +18,6 @@
     border-top-right-radius: 63px;
     border-bottom-left-radius: 63px;
     background:  #E3E8FA;
-    z-index: 1;
 }
 .text {
     position: absolute;
@@ -29,13 +28,11 @@
     font-size: 72px;
     line-height: 62px;
     color: #364476;
-    z-index: 1;
 }
 Img {
     padding: 8% 32%;
     position: absolute;
     width: 70%;
     height: 90%;
-    z-index: 2;
 
 }
