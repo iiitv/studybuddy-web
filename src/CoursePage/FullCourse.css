@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../image/background-image-01.png');
+    
+}
+
+.body{
+    background-color: rgb(8, 8, 51);
+    color: #FAF7E3;
+}
+
+
+.content{
+    padding-top: 90px; 
+}
+
+.head-with-nav-icon{
+    padding-left: 35px;
+}
+.head{
+    text-align: center;
+    width: 100%;
+}
+.headWelcome{
+    font-family: Antipasto Pro;
+    font-size: 44px;
+    line-height: 25px;
+}
+
+.tagline{
+    font-size: 20px;
+}
+
+.sem-card{
+    padding-top: 30px; 
+    padding-bottom: 85px; 
+}
+
+.cards{
+    display: flexbox;
+    justify-content: space-evenly;
+    
+
+}
+.cards div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #FAF7E3;
+    margin-top: 10px;
+    transition : .3s linear ;
+}
+
+.cards .card1{
+    background-image: url(../image/cards-01-01.svg);
+}
+.cards .card2{
+    background-image: url(../image/cards-01-02.svg);
+}
+
+.cards .card3{
+    background-image: url(../image/cards-01-03.svg);
+}
+.cards .card4{
+    background-image: url(../image/cards-01-04.svg);
+}
+
+.cards p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 35%;
+}
+
+.cards .card5{
+    background-image: url(../image/cards-01-05.svg);
+}
+.cards .card6{
+    background-image: url(../image/cards-01-06.svg);
+}
+
+.cards div:hover{
+    width: 174px;
+    height: 174px;   
+} 
+
+
+/*.cards div img{*/
+    /* margin-right: 25px;
+    margin-top: 25px; */
+    /*width: 180px;
+    height: 180px;
+    align-items: center;
+}*/
+
+/*.big-card{
+    position: relative;
+}*/
+/*.cards img:hover{
+    width: 181px;
+    height: 181px;
+    border: 2px solid rgb(132, 132, 175);
+    border-radius: 3px;
+} */
+
+/*.text{  
+    font-size: 30px;
+    cursor : pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition-property: color;
+    transition: 1s linear;
+    transform: translate(-50%, -50%);
+    color: white;
+}*/
+
