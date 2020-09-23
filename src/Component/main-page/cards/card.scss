@@ -1,0 +1,19 @@
+.card{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color:#364476;
+    border: 1px solid #E3E8FA;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &__label{
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: #C1CEFB;
+    }
+}
