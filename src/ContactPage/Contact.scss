@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+// @font-face {
+//     font-family: "Antipasto pro";
+//     src: url();
+//     font-style: normal;
+//     font-weight: 400;
+// }
+
 #page-container {
     display : flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    margin-top: 2%;
-    border-radius: 30px;
-    background-color: #2b64ff;
+    background-color: #050824;
 }
 
 #contact-head {
-    width: 40%;
-    margin-left: 5%;
+    width: 50%;
 }
 
 #contact-head h1 {
-    font-size : 30px;
+    font-size : 35px;
+    font-weight: 100;
     margin-top: 15%;
     color: #ffffff;
     font-family: "montserrat";
@@ -26,59 +29,59 @@
 #contact-head p {
     color: #ebedf2;
     font-family: "montserrat";
+    line-height:  25px;
     font-weight: 50;
+}
 
+.manage-para {
+    width: 50%;
+    margin-left: 23%;
 }
 
 #contact-container { 
-    width: 100%;
-    align-items: center;
+    width: 50%;
     height: 100vh;
 }
 
 .contact-card {
-    margin-top: 5%;
-    height: 90%;
-    width: 70%;
-    margin-left:20%;
-    border-radius : 35px;
-    background-color: #ffffff;
-    box-shadow: #94969c;
+    height: 96%;
+    width: 97%;
+    margin: 1.7%;
+    border-radius:20px;
+    background-color:#D2DCF6;
 }
 
-.contact-card h1 {
-    font-family :"montserrat" ;
-    color: #94969c;
-    font-size: 20px;
+.act-message {
+    font-family: "montserrat";
+    color: #3D636D;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 input[type=text] ,input[type=email], input[type=number] {
     margin-top: 7%;
     width : 70%;
-    font-size :15px;
+    font-size :20px;
     border: none;
-    border-bottom: 1px solid #d5dae3;
+    background-color:#D2DCF6;
+    border-bottom: 1px solid #aba7a4;
     font-family : "montserrat"
 }
 
 textarea {
     margin-top: 7%;
-    font-size : 15px ;
+    font-size : 20px ;
     height : 100%;
     width: 70%;
     resize : none;
-    border : 1px solid #d5dae3;
-    font-family : "montserrat"
+    border : 1px solid  #aba7a4;
+    font-family : "montserrat";
+    background-color:#D2DCF6;
 }
 
 .submit-btn {
     margin-top: 6%;
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    background: #050824;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -91,16 +94,12 @@ textarea {
 }
   
 .submit-btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background:  #050824;
     text-decoration: none;
+    color: #D2DCF6;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     #page-container {
         display : flex;
         flex-direction: column;
@@ -108,6 +107,7 @@ textarea {
     }
     #contact-head {
         margin: auto;
+        width: 100%;
     }
     #contact-head h1 {
         font-size : 20px;
@@ -115,10 +115,23 @@ textarea {
     #contact-head p {
         font-size : 15px;
     }
+    .manage-para {
+        width: 90%;
+        margin: auto;
+    }
+    #contact-container {
+        width: 100%;
+    }
     .contact-card {
-        height: 90%;
+        height: 80%;
         width: 70%;
         margin : auto;
+    }
+    input[type=text] ,input[type=email], input[type=number] {
+        font-size : 10px;
+    }
+    textarea {
+        font-size:10px;
     }
     .contact-card h1 {
         font-size :15px;
@@ -126,7 +139,8 @@ textarea {
     #contact-container {
         height: 80vh;
     }
+    .submit-btn {
+        font-size:15px;
+    }
 }
     
-
-  
