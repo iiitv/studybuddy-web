@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ContactPage from './ContactPage/Contact.js'
 import './App.css'
 import CardContainer from './Component/main-page/cards/CardContainer'
 import Footer from './Component/main-page/footer/Footer'
@@ -8,11 +9,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <Background/>
-        <CardContainer/>
-        <Footer/>
-        
+        {/* <h1>Hey</h1> */}
+        <ContactPage />
+//         <Background/>
+//         <CardContainer/>
+//         <Footer/>
       </div>
     );
   }

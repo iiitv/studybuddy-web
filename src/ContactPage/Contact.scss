@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+// @font-face {
+//     font-family: "Antipasto pro";
+//     src: url();
+//     font-style: normal;
+//     font-weight: 400;
+// }
+
+#page-container {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #050824;
+}
+
+#contact-head {
+    width: 50%;
+}
+
+#contact-head h1 {
+    font-size : 35px;
+    font-weight: 100;
+    margin-top: 15%;
+    color: #ffffff;
+    font-family: "montserrat";
+}
+
+#contact-head p {
+    color: #ebedf2;
+    font-family: "montserrat";
+    line-height:  25px;
+    font-weight: 50;
+}
+
+.manage-para {
+    width: 50%;
+    margin-left: 23%;
+}
+
+#contact-container { 
+    width: 50%;
+    height: 100vh;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: row;
+}
+.head-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-detail h1 {
+    font-family: "montserrat";
+    font-weight: 100;
+    color: #3D636D;
+}
+
+.head-detail p {
+    font-size : 17px;
+    font-family: "montserrat";
+    font-weight: 100;
+    color: #3D636D;
+
+}
+
+.manage-head-para {
+    width: 80%;
+}
+
+.notes-img {
+    height : 180px;
+    width : 180px;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.contact-card {
+    height: 96%;
+    width: 97%;
+    margin: 1.7%;
+    border-radius:20px;
+    background-color:#D2DCF6;
+}
+
+.act-message {
+    font-family: "montserrat";
+    color: #3D636D;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+input[type=text] ,input[type=email], input[type=number] {
+    margin-top: 4%;
+    width : 70%;
+    font-size : 12px;
+    border: none;
+    background-color:#D2DCF6;
+    border-bottom: 1px solid #aba7a4;
+    font-family : "montserrat"
+}
+
+textarea {
+    margin-top: 4%;
+    font-size : 12px ;
+    height : 100%;
+    width: 70%;
+    resize : none;
+    border : 1px solid  #aba7a4;
+    font-family : "montserrat";
+    background-color:#D2DCF6;
+}
+
+.submit-btn {
+    margin-top: 6%;
+    background: #050824;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "montserrat";
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2% 25% 2% 25%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+  
+.submit-btn:hover {
+    background:  #050824;
+    text-decoration: none;
+    color: #D2DCF6;
+}
+
+@media only screen and (max-width: 800px) {
+    #page-container {
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact-head {
+        margin: auto;
+        width: 100%;
+    }
+    #contact-head h1 {
+        font-size : 20px;
+    }
+    #contact-head p {
+        font-size : 15px;
+    }
+
+    .head-detail p {
+        font-size : 15px;
+    }
+    .manage-para {
+        width: 90%;
+        margin: auto;
+    }
+    #contact-container {
+        width: 100%;
+    }
+    .contact-card {
+        height: 100%;
+        width: 70%;
+        margin : auto;
+    }
+    .notes-img {
+        height : 100px;
+        width : 100px;
+        margin-top: 3%;
+        margin-right: 3%;
+    }    
+
+    input[type=text] ,input[type=email], input[type=number] {
+        font-size : 10px;
+    }
+    textarea {
+        font-size:10px;
+    }
+    .contact-card h1 {
+        font-size :15px;
+    }
+    #contact-container {
+        height: 80vh;
+    }
+    .submit-btn {
+        font-size:15px;
+    }
+}
+    
