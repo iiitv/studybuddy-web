@@ -43,6 +43,42 @@
     height: 100vh;
 }
 
+.container-head {
+    display: flex;
+    flex-direction: row;
+}
+.head-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-detail h1 {
+    font-family: "montserrat";
+    font-weight: 100;
+    color: #3D636D;
+}
+
+.head-detail p {
+    font-size : 17px;
+    font-family: "montserrat";
+    font-weight: 100;
+    color: #3D636D;
+
+}
+
+.manage-head-para {
+    width: 80%;
+}
+
+.notes-img {
+    height : 180px;
+    width : 180px;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
 .contact-card {
     height: 96%;
     width: 97%;
@@ -59,9 +95,9 @@
 }
 
 input[type=text] ,input[type=email], input[type=number] {
-    margin-top: 7%;
+    margin-top: 4%;
     width : 70%;
-    font-size :20px;
+    font-size : 12px;
     border: none;
     background-color:#D2DCF6;
     border-bottom: 1px solid #aba7a4;
@@ -69,8 +105,8 @@ input[type=text] ,input[type=email], input[type=number] {
 }
 
 textarea {
-    margin-top: 7%;
-    font-size : 20px ;
+    margin-top: 4%;
+    font-size : 12px ;
     height : 100%;
     width: 70%;
     resize : none;
@@ -91,6 +127,7 @@ textarea {
     padding: 2% 25% 2% 25%;
     text-decoration: none;
     border: none;
+    cursor: pointer;
 }
   
 .submit-btn:hover {
@@ -115,6 +152,10 @@ textarea {
     #contact-head p {
         font-size : 15px;
     }
+
+    .head-detail p {
+        font-size : 15px;
+    }
     .manage-para {
         width: 90%;
         margin: auto;
@@ -123,10 +164,17 @@ textarea {
         width: 100%;
     }
     .contact-card {
-        height: 80%;
+        height: 100%;
         width: 70%;
         margin : auto;
     }
+    .notes-img {
+        height : 100px;
+        width : 100px;
+        margin-top: 3%;
+        margin-right: 3%;
+    }    
+
     input[type=text] ,input[type=email], input[type=number] {
         font-size : 10px;
     }

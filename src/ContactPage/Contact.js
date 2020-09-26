@@ -22,6 +22,22 @@ class Contact extends Component {
           </div>
           <div id="contact-container">
             <div className="contact-card">
+              <div className="container-head">
+                <div className="head-detail">
+                  <h1> Message us</h1>
+                  <div className="manage-head-para">
+                    <p>
+                      Hey we will love to hear some words from you do let us
+                      know of nay query
+                    </p>
+                  </div>
+                </div>
+                <img
+                  className="notes-img"
+                  src="./images/notes.png"
+                  alt="notes"
+                ></img>
+              </div>
               <div className="manage-form">
                 <form>
                   <input
