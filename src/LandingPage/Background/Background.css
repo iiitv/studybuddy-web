@@ -1,0 +1,44 @@
+
+
+.Background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #050824;
+}
+
+.centre{
+    display: block;
+    top: 10%;
+    left: 10%;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    border-top-right-radius: 63px;
+    border-bottom-left-radius: 63px;
+    background:  #E3E8FA;
+    z-index: 1;
+}
+.text {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 62px;
+    color: #364476;
+    z-index: 1;
+}
+Img {
+    position: absolute;
+    top: 20%;
+    right: 0.5%;
+    width: 70%;
+    height: 90%;
+    z-index: 2;
+
+}
