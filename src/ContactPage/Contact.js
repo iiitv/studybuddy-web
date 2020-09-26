@@ -28,7 +28,7 @@ class Contact extends Component {
                   <div className="manage-head-para">
                     <p>
                       Hey we will love to hear some words from you do let us
-                      know of nay query
+                      know of any query
                     </p>
                   </div>
                 </div>
