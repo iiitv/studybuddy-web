@@ -21,6 +21,6 @@ $ yarn
 $ yarn start
 ```
 
-### Authors :pencil:
+### Authors :writing_hand:
 
 ©️ Web Team StudyBuddy :tada:
